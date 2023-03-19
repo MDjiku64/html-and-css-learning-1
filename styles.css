@@ -1,0 +1,155 @@
+/*  (*) use to apply on all elemant */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+
+  background-color: turquoise;
+  margin: 0 auto;
+
+  padding: 20px;
+}
+
+header {
+}
+
+.image {
+  width: 100px;
+  height: 120px;
+  border: 2px solid white;
+  border-radius: 50;
+  float: left;
+}
+
+.Hed {
+  float: left;
+
+  padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+}
+
+.header-contact {
+  float: right;
+  padding: 30px;
+}
+
+.header-contact a {
+  text-decoration: none;
+  color: brown;
+  font-weight: bold;
+}
+
+.header-contact a:hover {
+  background-color: blueviolet;
+  text-decoration: underline;
+}
+
+/*  without clearing upper div cannot work in other elemant like hr */
+
+/*  need to clear upper div first or else it gone up */
+
+.div-clear {
+  clear: both;
+}
+
+hr {
+  border: 3px solid black;
+
+  margin: auto 20px;
+
+  border-bottom: none;
+}
+
+/* Pernonal details */
+
+#personal-details {
+}
+
+.pd {
+
+margin-bottom: 30px;
+
+}
+
+.left-div {
+  width: 30%;
+  float: left;
+}
+
+.right-div {
+  width: 70%;
+  float: left;
+}
+
+
+
+
+.common-hr{
+  border: solid black 1px;
+
+  border-bottom: none;
+
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* education */
+
+
+.edu-left{
+
+float: left;
+width: 45%;
+
+}
+
+.edu-right{
+
+float: right;
+
+width: 45%;
+
+}
+
+/* footer start */
+
+
+.bottom{ 
+
+background-color: #000;
+padding: 10px;
+text-align: center;
+}
+
+.bottom a{
+color: white;
+
+text-decoration: none;
+
+margin: 20px;
+
+}
+
+.bottom p{
+  color: white;
+  
+  
+  margin-top: 20px;
+  
+  }
